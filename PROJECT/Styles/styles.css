@@ -1,0 +1,73 @@
+.navbar .navbar-nav .nav-item a{
+    padding: 15px;
+}
+
+.navbar .navbar-nav .nav-but{
+    padding: 10px;
+}
+header{
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 200 px;
+    background-color: rgb(54, 53, 53);
+    align-items: center;
+    position: fixed;
+    box-shadow: 0 0 25px 0 rgb(153, 219, 229);
+}
+header *{
+    display: inline;
+}
+header li{
+    margin: 20px;
+}
+header li a{
+    color: rgb(255, 255, 255);
+    text-decoration: firebrick;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+header li a :hover{
+    color: black;
+}
+body{
+    background-image: url("../SRC/Images/record1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-text{
+    top: 100px;
+    left: 35%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    display: flex;
+    position: relative;
+    width: 600px;
+    height: 200px;
+    background: transparent;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    flex-direction: column;
+}
+.hero-text h1{
+    margin-bottom: 0;
+}
+.hero-text p{
+    margin-top: 10px;
+}
+main {
+    padding-bottom: 300px;
+}
+.footer{
+    color: white;
+    background-color: rgb(20, 20, 20);
+}
+
+  
+
